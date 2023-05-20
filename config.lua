@@ -63,16 +63,16 @@ Config.Stashes = {
         stashSize = 125000000,
         stashSlots = 150, 
     },
-    ["exotics stash"] = {
-        stashName = "exotics stash",
-        coords = vector3(922.20, -953.15, 39.50),
-        requirecid = false,
-        jobrequired = true,
-        gangrequired = false,
-        gang = "",
-        job = "exotics",
-        cid = {},  
-        stashSize = 125000000,
-        stashSlots = 150, 
-    },
+--    ["donatorMansion1"] = { -- id name
+--        stashName = "donatorMansion1", -- stash name
+--        coords = vector3(-96.17, 817.29, 235.72),
+--        requirecid = false,
+--        jobrequired = false, -- job
+--        gangrequired = false, -- gang
+--        gang = "",
+--        job = "",
+--        cid = {""},  -- player id for privat stash / admin
+--        stashSize = 1250000, -- stash size
+--        stashSlots = 125,  -- stashe slots
+--    },
 }
