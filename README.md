@@ -1,6 +1,6 @@
 # qb-stashes
 
-Configurable Stashes for for all leos stock and unstock creater jim_g
+Configurable Stashes for for all leos/gangs stock and unstock
 
 ## Dependency
 
@@ -9,16 +9,16 @@ Configurable Stashes for for all leos stock and unstock creater jim_g
 ## Example
 
 
-    ["donatorMansion1"] = {
-        stashName = "donatorMansion1",
+    ["donatorMansion1"] = { -- id name
+        stashName = "donatorMansion1", -- stash name
         coords = vector3(-96.17, 817.29, 235.72),
-        requirecid = true,
-        jobrequired = false,
-        gangrequired = false,
+        requirecid = false,
+        jobrequired = false, -- job
+        gangrequired = false, -- gang
         gang = "",
         job = "",
-        cid = {"ENL22736", "LUS73247"},  
-        stashSize = 1250000,
-        stashSlots = 125, 
+        cid = {""},  -- player id for privat stash / admin
+        stashSize = 1250000, -- stash size
+        stashSlots = 125,  -- stashe slots
     },
 ```
